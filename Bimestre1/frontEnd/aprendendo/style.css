@@ -1,0 +1,64 @@
+body{
+    font-family: 'Courier New', Courier, monospace;/* Para caso o site do Google Fonts caia do ar */
+    background-color: rgb(223, 208, 245);
+    color: black;
+    text-align: center;
+}
+
+.cabecalho{
+    background-color: black;
+    color: white;
+    display: block;
+    position: sticky; 
+    top:10px;
+}
+
+.cabecalho p{
+    display: inline;
+    padding: 10%;
+    margin: 15%, 1%;
+    height: 20%;
+}
+
+.inicio{
+    position: relative;
+    top:20%
+}
+
+.um{
+    position: relative;
+    z-index: 2;
+}
+
+.dois{
+    position: relative;
+    z-index: 1;
+}
+
+li{
+    color: rgb(131, 8, 8);
+    text-decoration: underline;
+    text-align: left;
+}
+
+.clique{
+    color:rgb(92, 90, 14);
+    display: inline;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.historia{
+    border: solid 5px black;
+    margin-top: 5%;
+    padding: 1% 5%;
+}
+
+#chat{
+    color: white;
+    width: 10%;
+    margin-left: 90%;
+    position: fixed;
+    left: 10px;
+    bottom: 30px;
+}

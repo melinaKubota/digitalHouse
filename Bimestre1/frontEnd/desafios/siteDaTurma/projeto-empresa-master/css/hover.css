@@ -1,0 +1,77 @@
+.h:hover{
+  background-color: #38017a;
+  color: white;
+  padding: 10px 16px;
+  border-style: none;
+  border-radius: 8px;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn_login:hover {
+  color: #38017a;
+  background-color: white;
+  transition: all 0.5s ease-in-out;
+}
+
+#mais:hover{
+  color: #38017a;
+  background-color: white;
+  transition: all 0.5s ease-in-out;
+}
+#btn_banner:hover{
+  color: #38017a;
+  background-color: white;
+  transition: all 0.5s ease-in-out;
+}
+
+#btn_banner2:hover{
+  color: #38017a;
+  background-color: white;
+  transition: all 0.5s ease-in-out;
+}
+
+.aBanner:hover{
+  color: white;
+  background-color: #38017a;
+  transition: all 0.5s ease-in-out;
+}
+
+#cards img:hover{
+  transform: scale(1.05);
+  transition: all 0.5s ease-in-out;
+}
+
+#cardAluno img:hover{
+  transform: scale(1.05);
+  transition: all 0.5s ease-in-out;
+}
+
+/* 
+
+    LOGIN
+
+*/
+
+.btnEntrar:hover{
+  color: #38017a;
+  background-color: white;
+  transition: all 0.5s ease-in-out;
+}
+
+.btnSenha:hover{
+  color: #38017a;
+  background-color: white;
+  transition: all 0.5s ease-in-out;
+}
+
+#nome:hover{
+  color: white;
+  background-color: #38017a;
+  transition: all 0.5s ease-in-out;
+}
+
+.hvrBk:hover{
+  color: white;
+  background-color: #38017a;
+  transition: all 0.5s ease-in-out;
+}

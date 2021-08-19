@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font do site -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./img/icon.png" type="image/x-icon">
+    <!-- CSS principal -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- CSS HOVER -->
+    <link rel="stylesheet" href="./css/hover.css">
+    <!-- CSS ANIMAÇÕES -->
+    <link rel="stylesheet" href="./css/animate.css">
+    <!-- Titulo do site -->
+    <title>Correr - Formulário</title>
+</head>
+<body>
+    <h1>Um belo dia para correr</h1>
+    <!--  Caixa do formulario-->
+    <form class='slide-formulario' id='form' method='POST'>
+        
+        <h2>CADASTRO:</h2>
+        <!-- nome completo: -->
+        <div>
+            <label for='nome'>Nome Completo:</label>
+            <input class='hover' type='text' id='nome' name='nome' placeholder = 'Digite o seu nome'>  
+        </div>
+         <!-- e-mail: --> 
+        <div>
+            <label for='email'>e-mail:</label>
+            <input class='hover' type='email' id='email' name='email' placeholder = 'email@gmail.com'>  
+        </div>
+          <!--  Senha (placeholder) --> 
+        <div>
+            <label for='senha'>senha:</label>
+            <input class='hover' type='password' id='senha' placeholder = '********'>  
+        </div>
+         <!-- Botao - submit e reset -->
+        <div>
+            <button class='btn'>Submit</button>
+            <button class='btn'>Reset</button>
+        </div>
+    </form> 
+</body>
+</html>

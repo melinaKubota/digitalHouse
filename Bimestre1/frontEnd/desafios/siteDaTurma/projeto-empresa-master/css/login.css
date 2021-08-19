@@ -1,0 +1,101 @@
+/* CSS LOGIN */
+.bodyLogin{
+    background-image: url("https://media.giphy.com/media/YW1g39jepet2t5bcSh/giphy.gif");
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+/* TURMA 01 SCHOOL */
+.h1Login{
+    text-align: start;
+}
+
+/* Login */
+.textColor{
+    text-align: center;
+    margin-bottom: 3%;
+}
+/* input */
+.hvrBk{
+    box-sizing: border-box;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border-radius: 19px;
+    border: 1px solid var(--common-border);
+    width: 90%;
+    margin-top: 1%;
+}
+
+/* Caixa de login */
+#login{
+    margin-top: 100px; 
+    background-color: #b5a4ca;
+    color: #38017a; 
+    padding: 2%;
+    width: 300px;
+    border-radius: 5px;
+    display: flex; 
+    flex-direction:column;
+    margin-bottom: 100px;
+    max-width: 370px;
+    width: 90%;
+    margin-left: 60%;
+    text-align: center;
+}
+
+.nome{
+    text-align: start;
+}
+.senha{
+    margin-top: 10px;
+}
+.senhaCaixa{
+    padding-bottom: 30%;
+}
+.formLogin{
+    margin-top: 5%;
+}
+/* Botão de entrar */
+.btnEntrar{
+    color: white;
+    background-color: #38017a;
+    padding: 10px 16px;
+    border-style: none;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border-radius: 19px;
+    border: 1px solid var(--common-border);
+    width: 90%;
+}
+
+/* Botão de senha */
+.btnSenha{
+  background-color: rgba(56, 1, 122, 0.3);
+  color: #38017a;
+  border-style: solid;
+  border-color: #38017a;
+  padding: 10px 16px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  border-radius: 19px;
+  border: 1px solid var(--common-border);
+  width: 90%;
+  margin-top: 5px;
+}
+
+header{
+    margin-top: -20px;
+}
+footer{
+    margin-bottom: -20px;
+}

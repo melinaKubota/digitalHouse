@@ -1,0 +1,18 @@
+/* quando passa o mouse em cima de cadastro mudar para a cor vermelha */
+#form > h2:hover{
+   color: #e82139;
+}
+/* quando passar o mouse em cima das caixas do form mudar para vermelho */
+.hover:hover{
+    background-color: #e82139; 
+    border-radius: 5px;
+    color: white;
+    transition: all 0.1s ease-in-out;
+
+}
+/* quando passar o mouse em cima dos botoes mudar para branco com negrito em azul */
+.btn:hover{
+    background-color:white;
+    color: #00296b;
+    font-weight: bold;
+}

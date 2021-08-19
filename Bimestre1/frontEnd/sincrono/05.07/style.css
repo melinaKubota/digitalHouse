@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding:25px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+ul{
+    display: flex;
+}
+ul li{
+    margin-left: 10px;
+}
+ul li a{
+    padding: 10px;
+}
+h1{
+    text-align: center;
+
+}
+#flex-container{
+    display: flex;
+    flex-direction: wrap;
+}
+article{
+    width: 150px;
+    margin:10px;
+    justify-content: center;
+    flex: 1 1 20%;
+}

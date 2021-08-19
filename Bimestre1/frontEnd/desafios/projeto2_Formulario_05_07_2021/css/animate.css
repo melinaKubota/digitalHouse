@@ -1,0 +1,15 @@
+/* class colocada no form do index.html */
+.slide-formulario{
+    animation-duration: 2s;
+    animation-name: slidein; /*nome da animação */
+}
+
+/* animação do formulario quando o site é carregado */
+@keyframes slidein{
+    from{
+        margin-left: -90%;
+    }
+    to{
+        padding: 2.5%;
+    }
+}

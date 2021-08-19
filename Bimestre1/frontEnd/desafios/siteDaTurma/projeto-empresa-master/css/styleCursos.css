@@ -1,0 +1,468 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/**CSS DA PAGINA CURSOS**/
+
+a {
+  color: #38017a;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  color: #333333;
+}
+#header {
+  background-color: white;
+  position: sticky;
+  top: 0;
+}
+#header nav {
+  color: #38017a;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 1em 0 0.5em #333333;
+}
+#header nav img {
+  width: 322px;
+}
+
+#btn_banner a {
+  color: white;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+.menu li {
+  list-style: none;
+  margin: 60px;
+}
+
+.btn_login {
+  color: white;
+  background-color: #38017a;
+  padding: 10px 16px;
+  border-style: none;
+  border-radius: 8px;
+}
+
+#banner {
+  width: 100%;
+  min-height: calc(100vh - 644px);
+  background-color: rgba(56, 1, 122, 0.3);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+#banner h1 {
+  font-size: 64px;
+  padding: 50px;
+}
+
+
+#footer {
+  background-color: #38017a;
+  padding: 100px;
+  text-align: center;
+}
+
+/* OS "INVOCADOS" ABAIXO NÃO FORAM ALTERADOS */
+#footer img {
+  width: 200px;
+}
+
+#footer p {
+  margin-top: 10px;
+  color: white;
+}
+
+/* ORGANIZAÇÃO DAS DIVS */
+
+#ctpai {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#ctpai #imgCursos img {
+  width: 150%;
+  position: relative;
+  margin: 15%;
+  z-index: -1;
+}
+
+#ctpai #descricao {
+  text-align: left;
+  font-weight: 300;
+  font-size: 1.2em;
+  width: 150%;
+  position: relative;
+  margin: 10% 15% 15% 20%;
+  z-index: -1;
+}
+
+/* CSS setas */
+
+#setas {
+  display: flex;
+  justify-content:flex-end;
+  align-items: flex-end;
+  position: relative;
+  padding: 20px;
+  bottom: 104px;
+  margin: 0px 0px 0px 0px;
+}
+
+#setas img {
+  width: 36px;
+  height: 40px;
+}
+
+#setas div
+{
+  margin-left: 20px;
+}
+
+/**RESPONSIVIDADE**/
+
+
+
+
+@media (min-width: 1023px) and (max-width: 1182px) {
+  /*index.html*/
+  .menu li {
+    margin: 40px;
+  }
+
+  .menu{
+    padding: 20px 0;
+  }
+}
+
+@media (min-width: 943px) and (max-width: 1022px) {
+  /*index.html*/
+  .menu li {
+    margin: 30px;
+  }
+
+  .menu{
+    padding: 30px 0;
+  }
+}
+
+@media (min-width: 863px) and (max-width: 942px) {
+  /*index.html*/
+  .menu li {
+    margin: 20px;
+  }
+  
+  .menu{
+    padding: 40px 0;
+  }
+}
+
+@media (min-width: 783px) and (max-width: 862px) {
+  /*index.html*/
+  .menu li {
+    margin: 10px;
+  }
+  
+  .menu{
+    padding: 50px 0;
+  }
+}
+
+
+
+@media (min-width: 758px) and (max-width: 782px) {
+  /*index.html*/
+  .menu li {
+    margin: 10px;
+  }
+
+  #header nav img {
+    width: 250px;
+  }
+
+  .menu{
+    padding: 50px 0;
+  }
+}
+
+@media (min-width: 711px) and (max-width: 757px) {
+  
+  /*index.html*/
+  .menu li {
+    margin: 10px;
+  }
+
+  #header nav img {
+    width: 250px;
+  }
+
+  #banner h1 {
+    margin-top: 20vh;
+    font-size: 50px;
+  }
+  .menu{
+    padding: 50px 0;
+  }
+}
+
+@media (min-width: 621px) and (max-width: 710px) {
+  
+  /*index.html*/
+  .menu li {
+    margin: 7px;
+  }
+
+  #header nav img {
+    width: 200px;
+  }
+
+  .btn_login{
+    padding: 5px 8px;
+  }
+
+  #banner h1 {
+    margin-top: 20vh;
+    font-size: 50px;
+  }
+
+  .menu{
+    padding: 55px 0;
+  }
+}
+
+@media (min-width: 586px) and (max-width: 620px) {
+  /*index.html*/
+  .menu li {
+    margin: 7px;
+  }
+
+  #header nav img {
+    width: 150px;
+  }
+
+  .btn_login{
+    padding: 5px 8px;
+  }
+
+  #banner h1 {
+    margin-top: 20vh;
+    font-size: 40px;
+  }
+
+  #banner h3{
+    font-size: 28px;
+  }
+
+  .menu{
+    padding: 57px 0;
+  }
+}
+
+@media (min-width: 485px) and (max-width: 585px) {
+  /*index.html*/
+  .menu li {
+    margin: 7px;
+  }
+
+  #header nav img {
+    width: 150px;
+  }
+
+  .btn_login{
+    padding: 5px 8px;
+  }
+
+  #banner h1 {
+    margin-top: 20vh;
+    font-size: 40px;
+  }
+
+  #banner h3{
+    font-size: 28px;
+  }
+
+  .menu{
+    padding: 50px 0;
+  }
+
+  a{
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 449px) and (max-width: 484px) {
+  /*index.html*/
+  .menu li {
+    margin: 7px;
+  }
+
+  #header nav img {
+    width: 120px;
+  }
+
+  .btn_login{
+    padding: 3px 5px;
+  }
+
+  #banner h1 {
+    margin-top: 20vh;
+    font-size: 40px;
+  }
+
+  #banner h3{
+    font-size: 28px;
+  }
+
+  .menu{
+    padding: 50px 0;
+  }
+
+  a{
+    
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 387px) and (max-width: 448px) {
+  /*index.html*/
+  .menu li {
+    margin: 10px;
+  }
+  #header nav{
+    flex-direction: column;
+  }
+  #header nav img {
+    margin-top: 10px;
+    width: 200px;
+    
+  }
+
+  .btn_login{
+    padding: 5px 50px;
+    margin-bottom: 10px;
+  }
+
+  
+  .menu{
+    padding: 30px 0;
+  }
+
+  a{
+    
+    font-size: 12px;
+  }
+  #footer{
+    padding: 40px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 386px) {
+  /*index.html*/
+  .menu li {
+    margin: 10px;
+  }
+
+  #header nav{
+    flex-direction: column;
+  }
+
+  #header nav img {
+    margin-top: 10px;
+    width: 200px;
+    
+  }
+
+  .btn_login{
+    padding: 5px 50px;
+    margin-bottom: 10px;
+  }
+
+  #banner h1 {
+    margin-top: 10vh;
+    font-size: 40px;
+  }
+
+  #banner h3{
+    font-size: 28px;
+  }
+
+  .menu{
+    padding: 15px 0;
+  }
+
+  a{
+    
+    font-size: 12px;
+  }
+
+  #footer{
+    padding: 30px;
+  }
+}
+
+
+@media (min-width: 320px) and (max-width: 1211px) {
+
+
+  #ctpai {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  #ctpai #imgCursos img {
+    width: 30%;
+    margin: 0%;
+    position: unset;
+    
+  }
+  
+  #ctpai #descricao {
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.2em;
+    width: 80%;
+    position: relative;
+    margin: 0;
+    z-index: -1;
+  }
+  
+  /* CSS setas */
+  
+  #setas {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position: unset;
+    padding: 20px;
+    bottom: 104px;
+    margin: 0px 0px 0px 0px;
+  }
+  
+  #setas img {
+    width: 36px;
+    height: 40px;
+  }
+
+  #banner h1 {
+    font-size: 30px;
+    padding: 25px;
+  }
+ 
+  }

@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/**CSS DA PAGINA CURSOS**/
+
+a {
+  color: #38017a;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  color: #333333;
+}
+#header {
+  background-color: white;
+  position: sticky;
+  top: 0;
+}
+#header nav {
+  color: #38017a;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 1em 0 0.5em #333333;
+}
+#header nav img {
+  width: 322px;
+}
+
+#btn_banner a {
+  color: white;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+.menu li {
+  list-style: none;
+  margin: 60px;
+}
+
+.btn_login {
+  color: white;
+  background-color: #38017a;
+  padding: 10px 16px;
+  border-style: none;
+  border-radius: 8px;
+}
+
+#banner {
+  width: 100%;
+  min-height: calc(100vh - 644px);
+  background-color: rgba(56, 1, 122, 0.3);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+#banner h1 {
+  font-size: 64px;
+  padding: 50px;
+}
+
+
+#footer {
+  background-color: #38017a;
+  padding: 100px;
+  text-align: center;
+}
+
+/* OS "INVOCADOS" ABAIXO NÃO FORAM ALTERADOS */
+#footer img {
+  width: 200px;
+}
+
+#footer p {
+  margin-top: 10px;
+  color: white;
+}
+
+/* ORGANIZAÇÃO DAS DIVS */
+
+#ctpai {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#ctpai #imgCursos img {
+  width: 150%;
+  position: relative;
+  margin: 15%;
+  z-index: -1;
+}
+
+#ctpai #descricao {
+  text-align: left;
+  font-weight: 300;
+  font-size: 1.2em;
+  width: 150%;
+  position: relative;
+  margin: 10% 15% 15% 20%;
+  z-index: -1;
+}
+
+/* CSS setas */
+
+#setas {
+  display: flex;
+  justify-content:flex-end;
+  align-items: flex-end;
+  position: relative;
+  padding: 20px;
+  bottom: 104px;
+  margin: 0px 0px 0px 0px;
+}
+
+#setas img {
+  width: 36px;
+  height: 40px;
+}
+
+#setas div
+{
+  margin-left: 20px;
+}

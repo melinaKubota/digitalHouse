@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    background-color: black
+}
+
+
+
+
+
+
+body{
+    background-color: ;
+    font-family: 'Open Sans';
+}
+
+#header h3{
+    color: white;
+}
+
+#header strong{
+    color: red;
+}
+
+a{
+    color: white;
+
+}
+#main{
+
+}
+#banner{
+    background-image: url('https://blog.tnh1.com.br/planetatera/wp-content/uploads/2019/02/netflix-nova-animacao-logo-1024x576.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: calc(100vh - 82px) ;
+    color: white;
+}
+#banner h1{
+    font-size: 65px;
+    padding: 15px 0;
+}
+
+.card-grid{
+    margin-top:60px; 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 18px;
+    text-align: center;
+}
+
+.card-movie img{
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    border: 1px solid lightgray;
+    transition: all 0.3s ease-in-out;
+}
+
+.card-movie img:hover{
+    transform: scale(1.1);
+}
+
+.btn{
+    margin-top: 30px;
+    padding: 10px 90px;
+    font-weight: bold;
+    border-radius: 9px; 
+    transition: all 0.3s ease-in-out;
+    border: none;
+    background-color:white;
+}
+
+.btn:hover{
+    background-color: red;
+    color:white;
+}
+
+footer{
+    display:flex; 
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+    background: red;
+    color: white;
+}
+
+footer h3{
+    color: white
+}
+
+footer strong{
+    color:black
+}
+
+@media (max-width: 689px){
+    .card-grid{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (min-width: 690px) and (max-width: 799px){
+    .card-grid{
+        grid-template-columns: repeat (2, 1fr);
+    }
+}
